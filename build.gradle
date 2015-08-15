@@ -1,0 +1,15 @@
+ext.version = '1.0.0'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+dependencies {
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}
